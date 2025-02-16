@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "../services/axiosInstance.js";
 import Loader from "./Loader";
-// import PostList from "./PostList.jsx";
-
 function PostDetails() {
   const { id } = useParams();
   const [post, setPost] = useState(null);

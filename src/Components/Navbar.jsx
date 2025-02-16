@@ -6,10 +6,10 @@ function Navbar() {
     <nav>
       <ul className="nav-list">
         <li className="nav-item">
-          <Link to="/" className="nav-link">Barcha postlar</Link>
+          <Link to="/" className="nav-link">All Post</Link>
         </li>
         <li className="nav-item">
-          <Link to="/add" className="nav-link">Yangi post qo'shish</Link>
+          <Link to="/add" className="nav-link">Add Post</Link>
         </li>
       </ul>
     </nav>
