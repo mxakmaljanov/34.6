@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "../services/axiosInstance.js";
-import Loader from "./Loader";
+import Loader from "./Loader.jsx";
 function PostDetails() {
   const { id } = useParams();
   const [post, setPost] = useState(null);

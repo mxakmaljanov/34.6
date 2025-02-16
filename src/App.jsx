@@ -3,8 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import AddPost from './Components/AddPost';
 import PostList from './Components/PostList';
-import PostDetails from './Components/PostDetails';
-
+import Details from'./Components/Details'
 import './App.css';
 
 function App() {
@@ -14,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<PostList />} />
         <Route path="/add" element={<AddPost />} />
-        <Route path="/posts/:id" element={<PostDetails />} />
+        <Route path="/posts/:id" element={<Details />} />
       </Routes>
     </Router>
   );
