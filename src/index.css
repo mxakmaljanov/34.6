@@ -1,0 +1,147 @@
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.spinner {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid rgb(42, 41, 41);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.container {
+    max-width: 1220px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    background-color: #e7f4ff;
+}
+
+.container .card {
+    width: 28%;
+    background-color: rgb(4, 14, 81);
+    padding: 20px;
+    border-radius: 10px;
+}
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+.edit-btn {
+    background-color: #f39c12;
+    color: white;
+}
+.details-btn {
+    background-color: #3498db;
+    color: white;
+}
+.card-title {
+    max-width: 1220px;
+    margin: auto;
+    padding: 20px;
+    background-color: #3498db;
+}
+
+.card-title h3 {
+    font-size: 30px;
+}
+
+.card-title p {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+nav {
+    background-color: #2c3e50;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.nav-item {
+    margin-right: 20px;
+}
+.nav-link {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.nav-link.active {
+    color: white;
+    background-color: #34495e;
+}
+.container2 {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container2 h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.container2 input,
+.container2 textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+    transition: border-color 0.3s ease;
+}
+.container2 button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #428a60;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
